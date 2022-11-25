@@ -17,6 +17,7 @@ export const App = () => {
       />
       {/* Задание 2 - Статистика */}
       <Statistics
+        title="Upload stats"
         stats={data}
       />
     </>
