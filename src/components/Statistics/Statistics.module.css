@@ -35,10 +35,29 @@
 
     width: calc((100% - 50px) / 5);
     padding: 10px;
-    background-color: rgb(140, 142, 150);
     border-right: 1px solid rgba(221, 221, 221, 0.7);
 
     text-align: center;
+}
+
+.item:nth-child(1n+1) {
+    background-color: #507fcf;
+}
+
+.item:nth-child(2n+1) {
+    background-color: #5c9b33;
+}
+
+.item:nth-child(3n+1) {
+    background-color: #c73926;
+}
+
+.item:nth-child(4n+1) {
+    background-color: #ada209;
+}
+
+.item:nth-child(5n+1) {
+    background-color: #622979;
 }
 
 .item:last-child {
