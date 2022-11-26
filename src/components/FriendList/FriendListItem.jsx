@@ -5,7 +5,7 @@ export const FriendListItem = ({ avatar, name, isOnline }) => {
     console.log(isOnline);
     return (
         <li className={css.item}>
-            {{isOnline}
+            {isOnline
                 ? (<span className={css.statusOnline}></span>)
                 : (<span className={css.statusOffline}></span>)
             }
